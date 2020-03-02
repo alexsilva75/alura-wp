@@ -27,6 +27,9 @@ SET time_zone = "+00:00";
 --
 -- Estrutura da tabela `wp_commentmeta`
 --
+DROP DATABASE alura_wp;
+CREATE DATABASE alura_wp;
+USE alura_wp;
 
 CREATE TABLE `wp_commentmeta` (
   `meta_id` bigint(20) UNSIGNED NOT NULL,
